@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Weather Forecast</title>
+    <script src="https://kit.fontawesome.com/5b4f015aa1.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <main>
+        <aside class="leftContainer">
+            <div class="dataContainer">
+                <div class="topLeft"></div>
+                <div class="bottomLeft"></div>
+                <div class="bottomRight"></div>
+                <h1>Weather<br>Forecast<br>App</h1>
+            </div>
+            <div class="loading">
+                <i class="fa-solid fa-umbrella fa-flip fa-2xl" style="color: yellow;"></i>
+            </div>
+            
+        </aside>
+        
+        <aside class="rightContainer">
+            <div class="weatherInfo"></div>
+            <div class="futureWeather">
+                <h1>ENTER A CITY BELLOW<br><br><i class="fa-solid fa-arrow-down-long fa-shake fa-2xl" style="color: white;"></i></i></h1>
+            </div>
+            <div class="inputContainer">
+                <input type="text" id="cityInput" placeholder="Ex: London">
+                <button class="locationButton" onclick="getData()" onmouseover="addAnimationButton()" onmouseout="removeAnimationButton()"><i class="fa-solid fa-location-dot"></i> Change Location</button>
+            </div>          
+        </aside>
+        <footer class="footer">By <a href="https://github.com/WindFox8">Rafael Correr <i class="fa-brands fa-github" ></i></a></footer>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
