@@ -1,6 +1,6 @@
 # Weather Forecast App
 
-A web application utilizing a weather API
+A web application that uses two weather APIs, the first for the current forecast and the second for the future forecast.
 
 link: https://windfox8.github.io/weather-forecast-app/
 
